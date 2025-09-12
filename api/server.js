@@ -1,7 +1,10 @@
 import express from "express";
+import cors from "cors"; 
 import data from "../db.json" with { type: "json" };
 
 const app = express();
+
+app.use(cors({ origin: "http://localhost:5173" }));
 
 // GET all languages
 app.get("/api/products", (req, res) => {
