@@ -1,0 +1,19 @@
+{
+  "languages": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "paradigm": "Multi-paradigm"
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "paradigm": "Multi-paradigm"
+    },
+    {
+      "id": 3,
+      "name": "Java",
+      "paradigm": "Object-Oriented"
+    }
+  ]
+}
