@@ -120,5 +120,31 @@
     "lessStock": true,
     "producttype": "Protein"
   }
+],
+"navlinks" : [
+  {
+    "id": 1,
+    "name": "Home"
+  },
+  {
+    "id": 2,
+    "name": "Sell"
+  },
+  {
+    "id": 3,
+    "name": "Amazon Pay"
+  },
+  {
+    "id": 4,
+    "name": "Gift Cards"
+  },
+  {
+    "id": 5,
+    "name": "Buy Again"
+  },
+  {
+    "id": 6,
+    "name": "Books"
+  }
 ]
 }
