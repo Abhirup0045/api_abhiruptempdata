@@ -4,8 +4,12 @@ import data from "../db.json" with { type: "json" };
 const app = express();
 
 // GET all languages
-app.get("/api/lang", (req, res) => {
-  res.json(data);
+app.get("/api/products", (req, res) => {
+  res.json(data.products);
+});
+
+app.get("/api/navlinks", (req, res) => {
+  res.json(data.navlinks);
 });
 
 // GET one language by id
