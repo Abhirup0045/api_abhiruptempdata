@@ -1,5 +1,5 @@
 import express from "express";
-import data from "../db.json" assert { type: "json" };
+import data from "../db.json" with { type: "json" };
 
 const app = express();
 
