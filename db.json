@@ -1,19 +1,122 @@
-{
-  "languages": [
-    {
-      "id": 1,
-      "name": "JavaScript",
-      "paradigm": "Multi-paradigm"
-    },
-    {
-      "id": 2,
-      "name": "Python",
-      "paradigm": "Multi-paradigm"
-    },
-    {
-      "id": 3,
-      "name": "Java",
-      "paradigm": "Object-Oriented"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Puma",
+    "Cost": 700,
+    "Model": "Female Solid Polo Neck Pure Cotton White T-Shirt",
+    "discount": "50%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 1400,
+    "sex": "Female",
+    "lessStock": false,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 2,
+    "name": "Addidas",
+    "Cost": 2500,
+    "Model": "Men Solid Polo Neck Cotton Blend White T-Shirt",
+    "discount": "48%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 5200,
+    "sex": "Male",
+    "lessStock": true,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 3,
+    "name": "Nike",
+    "Cost": 6800,
+    "Model": "Men Solid Round Neck Pure Cotton White T-Shirt",
+    "discount": "52%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 14000,
+    "sex": "Male",
+    "lessStock": true,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 4,
+    "name": "Zudio",
+    "Cost": 380,
+    "Model": "2714 Men Solid Round Neck Cotton Blend White T-Shirt",
+    "discount": "80%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 1400,
+    "sex": "Male",
+    "lessStock": false,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 5,
+    "name": "Puma",
+    "Cost": 1200,
+    "Model": "Female Solid Round Neck Cotton Blend White T-Shirt",
+    "discount": "50%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 2400,
+    "sex": "Female",
+    "lessStock": true,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 6,
+    "name": "Nike",
+    "Cost": 6800,
+    "Model": "Men Solid Round Neck Pure Cotton White T-Shirt",
+    "discount": "52%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 14000,
+    "sex": "Male",
+    "lessStock": true,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 7,
+    "name": "Zudio",
+    "Cost": 380,
+    "Model": "2714 Men Solid Round Neck Cotton Blend White T-Shirt",
+    "discount": "80%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 1400,
+    "sex": "Male",
+    "lessStock": false,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 8,
+    "name": "Puma",
+    "Cost": 1200,
+    "Model": "Female Solid Round Neck Cotton Blend White T-Shirt",
+    "discount": "50%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 2400,
+    "sex": "Female",
+    "lessStock": true,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 9,
+    "name": "Zudio",
+    "Cost": 380,
+    "Model": "2714 Men Solid Round Neck Cotton Blend White T-Shirt",
+    "discount": "80%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 1400,
+    "sex": "Male",
+    "lessStock": false,
+    "producttype": "T-shirt"
+  },
+  {
+    "id": 10,
+    "name": "Muscle Blaze",
+    "Cost": 2200,
+    "Model": "Whey Protein Isolate, 27g of Protein per Scoop",
+    "discount": "50%",
+    "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
+    "original-price": 1100,
+    "sex": "",
+    "lessStock": true,
+    "producttype": "Protein"
+  }
+]
