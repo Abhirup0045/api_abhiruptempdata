@@ -1,4 +1,5 @@
-[
+{
+"products" : [
   {
     "id": 1,
     "name": "Puma",
@@ -120,3 +121,4 @@
     "producttype": "Protein"
   }
 ]
+}
