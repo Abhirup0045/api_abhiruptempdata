@@ -10,7 +10,7 @@ app.use(cors({ origin: [
 ],
  }));
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.json(data);
 });
 
