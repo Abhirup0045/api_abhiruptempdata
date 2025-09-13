@@ -10,6 +10,10 @@ app.use(cors({ origin: [
 ],
  }));
 
+app.get("/", (req, res) => {
+  res.json(data);
+});
+
 // GET all languages
 app.get("/api/products", (req, res) => {
   res.json(data.products);
@@ -20,7 +24,7 @@ app.get("/api/navlinks", (req, res) => {
 });
 
 // GET one language by id
-app.get("/api/lang/:id", (req, res) => {
+app.get("/api/products/:id", (req, res) => {
   const lang = data.find(l => l.id === parseInt(req.params.id));
   lang ? res.json(lang) : res.status(404).json({ error: "Not found" });
 });
