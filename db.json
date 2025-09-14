@@ -63,11 +63,11 @@
     {
       "id": 6,
       "name": "Nike",
-      "Cost": 6800,
+      "Cost": 680,
       "Model": "Men Solid Round Neck Pure Cotton White T-Shirt",
       "discount": "52%",
       "imageurl": "https://res.cloudinary.com/ddu1fpkrw/image/upload/v1752359370/samples/shoe.jpg",
-      "original-price": 14000,
+      "original-price": 1400,
       "sex": "Male",
       "lessStock": true,
       "producttype": "T-shirt"
