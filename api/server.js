@@ -10,6 +10,10 @@ app.use(cors({ origin: [
 ],
  }));
 
+app.get("/", (req, res) => {
+  res.send('API is Running');
+});
+
 app.get("/api", (req, res) => {
   res.json(data);
 });
