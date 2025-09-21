@@ -127,12 +127,16 @@
       "name": "Home"
     },
     {
+      "id" : 7,
+      "name": "Top Deals"
+    },
+    {
       "id": 2,
       "name": "Products"
     },
     {
       "id": 3,
-      "name": "Amazon Pay"
+      "name": "Best Sellers"
     },
     {
       "id": 4,
@@ -145,6 +149,10 @@
     {
       "id": 6,
       "name": "Books"
+    },
+    {
+      "id" : 8,
+      "name" : "Help Center"
     }
   ]
 }
