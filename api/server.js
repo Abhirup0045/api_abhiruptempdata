@@ -11,7 +11,7 @@ app.use(cors({ origin: [
  }));
 
 app.get("/", (req, res) => {
-  res.send('API is Running');
+  res.json({message: 'API is Running'});
 });
 
 app.get("/api", (req, res) => {
