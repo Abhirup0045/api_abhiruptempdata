@@ -135,6 +135,10 @@
       "name": "Products"
     },
     {
+      "id": 6,
+      "name": "Books"
+    },
+    {
       "id": 3,
       "name": "Best Sellers"
     },
@@ -146,9 +150,6 @@
       "id": 5,
       "name": "Buy Again"
     },
-    {
-      "id": 6,
-      "name": "Books"
-    }
+    
   ]
 }
