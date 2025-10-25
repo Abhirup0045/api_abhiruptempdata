@@ -4,11 +4,11 @@ import data from "../db.json" with { type: "json" };
 
 const app = express();
 
-// app.use(cors({ origin: [
-//   "http://localhost:5173",
-//   "https://abhisecomnew.netlify.app"
-// ],
-//  }));
+app.use(cors({ origin: [
+  "http://localhost:5173",
+  "https://abhisecomnew.netlify.app"
+],
+ }));
 
 app.use(cros());
 
