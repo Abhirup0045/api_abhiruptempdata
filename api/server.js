@@ -8,9 +8,8 @@ app.use(cors({ origin: [
   "http://localhost:5173",
   "https://abhisecomnew.netlify.app"
 ],
- }));
+}));
 
-app.use(cros());
 
 app.get("/", (req, res) => {
   res.json({message: 'API is Running'});
@@ -35,4 +34,6 @@ app.get("/api/products/:id", (req, res) => {
   lang ? res.json(lang) : res.status(404).json({ error: "Not found" });
 });
 
-export default app; // 👈 no app.listen
+// app.listen(3000, ()=> console.log('at 3000'))   // un-comment while dev.
+
+export default app;
